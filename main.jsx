@@ -1,6 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom/client"; // React 18+ uses this API
-import App from "App.jsx"; // importing your main App component
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./App.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
