@@ -47,7 +47,7 @@ const App = () => {
   useEffect(() => {
     if (!value1) return;
 
-    const apiKey = "777284349b5fa0554ad5e8ea62bd40a2";
+    const apiKey = 777284349b5fa0554ad5e8ea62bd40a2;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${value1}&appid=${apiKey}&units=metric`;
 
     fetch(url)
